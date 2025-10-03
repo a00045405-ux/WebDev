@@ -1,0 +1,17 @@
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    width: 130px;
+    background-color: rgb(195, 230, 227);
+    height:100%; /*Full height*/
+    position: fixed; /*It makes it stick even when scrolling*/
+    overflow: auto; /*Enable scrollling when the nav is too long*/
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+}
+
