@@ -12,13 +12,14 @@ Flex = organize the content inside that glued bar.*/
     align-items: center;
     padding: 0 50px;
     height: 75px;
-    background-image: linear-gradient(rgb(195, 230, 227), rgb(125, 231, 224));
+    background: linear-gradient(to left, #ff69b4, #87cefa, #ffeb3b);
     position: sticky; /* With sticky, the header stays in the normal flow (so it pushes content down) 
     until you scroll, then it sticks to the top. No padding-top needed. */
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000; /* keeps it above other elements */
+    
 
  }
  
@@ -48,7 +49,37 @@ Flex = organize the content inside that glued bar.*/
     color:darkmagenta;
     transition:all 0.4s ease 0s;
  }
- h1 {
-    text-align: center;
 
- }
+ 
+.cover{
+    background: linear-gradient(to left, #ff69b4, #87cefa, #ffeb3b);
+    color: white;
+    text-align: center;
+    padding: 150px 20px 100px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top:60px;
+
+}
+.cover h1 {
+    font-size: 45px;
+}
+.cover p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.gallery{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap:15px;
+   padding:40px 20px;
+}
+.gallery img{
+   width: 300px;
+   height:400px;
+   object-fit: cover;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+}
