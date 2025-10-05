@@ -1,17 +1,54 @@
-ul {
-    list-style-type:none;
-    margin:0;
-    padding:0;
-    width: 130px;
-    background-color: rgb(195, 230, 227);
-    height:100%; /*Full height*/
-    position: fixed; /*It makes it stick even when scrolling*/
-    overflow: auto; /*Enable scrollling when the nav is too long*/
-}
+ *{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box ;
+ }
 
-li a {
-    display: block;
-    color: black;
-    padding: 8px 16px;
-}
+ /* Fixed = glue the whole bar to the top.
+Flex = organize the content inside that glued bar.*/
+ header{
+    display: flex;
+    justify-content: space-between; /* logo left, nav right */
+    align-items: center;
+    padding: 0 50px;
+    height: 75px;
+    background-image: linear-gradient(rgb(195, 230, 227), rgb(125, 231, 224));
+    position: sticky; /* With sticky, the header stays in the normal flow (so it pushes content down) 
+    until you scroll, then it sticks to the top. No padding-top needed. */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* keeps it above other elements */
 
+ }
+ 
+ 
+ header img{
+    max-height: 75px;
+    cursor: pointer;
+ }
+ nav ul{
+    display: flex; /* put items in a row */
+    list-style: none;
+    gap: 40px; /* spacing between items */
+ }
+ nav li{
+    display:inline-block;
+    list-style: none;
+ }
+ nav li a{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px 20px;
+    color:black;
+    text-decoration: none;
+ }
+ nav li a:hover{
+    color:darkmagenta;
+    transition:all 0.4s ease 0s;
+ }
+ h1 {
+    text-align: center;
+
+ }
