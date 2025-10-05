@@ -83,3 +83,57 @@ Flex = organize the content inside that glued bar.*/
    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 
 }
+.services{
+   background-color: #f0f0f0;
+   text-align: center;
+   padding: 60px 20px;
+}
+.services h3{
+   padding: 30px 10px;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+}
+.services ul{
+   list-style-type:none;
+   padding: 0;
+}
+.services ul li{
+   margin-top: 10px;
+   color:black;
+
+
+}
+.services ul li a:hover{
+   color: red;
+   cursor: pointer;
+
+}
+.booking {
+   text-align: center;
+   padding: 50px 20px;
+   background: #87cefa;
+   color: white;
+
+}
+.booking h4{
+   margin-bottom: 10px;
+   font-size: 18px;
+}
+.booking button{
+   background: #ff69b4;
+   border: none;
+   padding: 15px 30px;
+   font-size: 18px;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.booking button:hover{
+   background: #ff1493;
+}
+footer{
+   background: #6a6a6a;
+   color: white;
+   text-align: center;
+   padding: 20px;
+}
