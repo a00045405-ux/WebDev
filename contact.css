@@ -1,18 +1,17 @@
- h1 {color:white;}
-  p {color:white;}
-  body { background-color: black; }
+body {
+ background-color: powderblue;
+}
+h1 {
+ color:white;
+}
+ p {
+  color:white;
+ }
+  body { background-color: #ff69b4, #87cefa, #ffeb3b; }
   h1 {text-align: center;}
   p {text-align: center; font-size: 50px;}
   div {text-align: center;}
   h3 {color:white; text-align: center;}
   label {color:white; text-align: center; margin: 0 auto; width:250px;}
   form {margin: 0 auto; width:250px;}
-body {
-  background-color: powderblue;
-}
-h1 {
-  color: blue;
-}
-p {
-  color: red;
-}
+
