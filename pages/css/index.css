@@ -19,9 +19,7 @@ Flex = organize the content inside that glued bar.*/
     left: 0;
     width: 100%;
     z-index: 1000; /* keeps it above other elements */
-    
-
- }
+   }
  
  
  header img{
@@ -117,7 +115,7 @@ Flex = organize the content inside that glued bar.*/
 }
 .booking h4{
    margin-bottom: 10px;
-   font-size: 18px;
+   font-size: 1.5rem;
 }
 .booking button{
    background: #ff69b4;
@@ -138,6 +136,7 @@ Flex = organize the content inside that glued bar.*/
 footer{
    background: #6a6a6a;
    color: white;
+   font-size: 1.5rem;
    text-align: center;
    padding: 20px;
 }
