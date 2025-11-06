@@ -105,20 +105,25 @@ Flex = organize the content inside that glued bar.*/
 .services ul{
    background-color: white;
    width:25%;
+   margin-left: 1rem;
    list-style-type:none;
    padding: 0;
    border-radius: 0.5rem;
+   flex-wrap: wrap;
    
 }
 .services ul li{
+   padding-left: 1rem;
    font-size: 1.2rem;
    margin-top: 10px;
    color:black;
+   line-height: 1.6;
 
 
 }
 .services ul li a:hover{
    color: red;
+   
    cursor: pointer;
 
 }
