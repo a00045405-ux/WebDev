@@ -1,7 +1,12 @@
 *{
-    margin: 0px;
-    padding:0px;
-    box-sizing: border-box ;
+   margin: 0px;
+   padding:0px;
+   box-sizing: border-box ;
+   font-variant: small-caps;
+   letter-spacing: 1px;
+   line-height: 1.6;
+   font-family: Arial, sans-serif;
+   
  }
 
  /* Fixed = glue the whole bar to the top.
@@ -12,7 +17,7 @@ Flex = organize the content inside that glued bar.*/
     align-items: center;
     padding: 0 50px;
     height: 75px;
-    background: linear-gradient(to left, #ff69b4, #87cefa, #ffeb3b);
+    background: linear-gradient(to left, #ff69b4aa, #87cefaaa, #ffeb3baa);
     position: sticky; /* With sticky, the header stays in the normal flow (so it pushes content down) 
     until you scroll, then it sticks to the top. No padding-top needed. */
     top: 0;
@@ -50,7 +55,7 @@ Flex = organize the content inside that glued bar.*/
 
  
 .cover{
-    background: linear-gradient(to left, #ff69b4, #87cefa, #ffeb3b);
+    background: linear-gradient(to left, #ff69b4aa, #87cefaaa, #ffeb3baa);
     color: white;
     text-align: center;
     padding: 150px 20px 100px;
@@ -77,13 +82,19 @@ Flex = organize the content inside that glued bar.*/
    width: 300px;
    height:400px;
    object-fit: cover;
-   border-radius: 10px;
+   border-radius: 0.625rem;
    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-
+   transition: transform 0.3s ease;
+}
+.gallery img:hover
+{
+   cursor: pointer;
+   transform: scale(1.05);
+   box-shadow: 0 6px 12px rgba(0,0,0,0.6);
 }
 .services{
    background-color: #f0f0f0;
-   text-align: center;
+   text-align: left;
    padding: 60px 20px;
 }
 .services h3{
@@ -92,8 +103,12 @@ Flex = organize the content inside that glued bar.*/
    text-transform: uppercase;
 }
 .services ul{
+   background-color: white;
+   width:25%;
    list-style-type:none;
    padding: 0;
+   border-radius: 0.5rem;
+   
 }
 .services ul li{
    font-size: 1.2rem;
