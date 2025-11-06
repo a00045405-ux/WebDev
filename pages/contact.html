@@ -4,22 +4,46 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="C:\Users\onyin\Documents\GitHub\WebDev\pages\css\contact.css">
+    <link rel="stylesheet" type="text/css" href="css\contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <title>
     Contact
   </title>
-    <h1>Contact</h1>
+    
   </head>
 
   <body>
-    <p><h3>For bookings and queries contact me here</h3><br>
-        <form method="POST" action="anotherfile.html">
-        <label for="youremail"> Your email:</label>
-        <input type="text" id="youremail" name="youremail"><br><br>
-        <label for="bookings/queries"> Bookings/Queries:</label>
-        <input type="text" id="bookings/queries" name="bookings/queries"><br><br>
-        <input type="submit" value="Submit">
-      </form>
-    </p>
+    <section class="contact-container">
+    
+    <div class="contact-info">
+        <h2>Contact Us</h2>
+
+        <div class="info-item">
+            <div class="icon pink-circle"><i class="fa-solid fa-location-dot"></i></div>
+            <p>123 Refresh Street, Glam Town</p>
+        </div>
+
+        <div class="info-item">
+            <div class="icon pink-circle"><i class="fa-solid fa-envelope"></i></div>
+            <p>refreshsalon@email.com</p>
+        </div>
+
+        <div class="info-item">
+            <div class="icon pink-circle"><i class="fa-solid fa-phone"></i></div>
+            <p>+123 456 789</p>
+        </div>
+    </div>
+
+    <!--Form -->
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Write your message..." required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+</section>
+
   </body>
 </html>
