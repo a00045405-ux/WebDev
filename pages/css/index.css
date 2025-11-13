@@ -141,15 +141,16 @@ Flex = organize the content inside that glued bar.*/
 .booking button{
    background: #ff69b4;
    border: none;
-   padding: 15px 30px;
+   padding: 20px 35px;
    font-size: 18px;
    color: white;
-   border-radius: 5px;
+   border-radius: 7px;
    cursor: pointer;
 }
 .booking button a{
    text-decoration: none;
    color:white;
+   padding: 0.565rem;
 }
 .booking button:hover{
    background: #ff1493;
