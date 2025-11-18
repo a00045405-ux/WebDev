@@ -1,28 +1,85 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=500, initial-scale=1" />
     <title>Refresh</title>
+    <link rel="stylesheet" href="pages\css\index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 <body>
     <header>
-        <h1>Refresh</h1>
+        <div class="logo">
+            <a alt="refresh_logo" href="index.html"> <img alt="refresh_logo" src="pages\media\REFRESHlogo.png"> </a>
+        </div>
+        <!--This is the navigation we have to link the different pages-->
         <nav>
             <ul>
-               <li> <a href="#homepage">Homepage</a></li> 
-               <li> <a href="about">About</a></li>
-               <li> <a href="contact">Contact</a></li>
+                <li> <a href="index.html">Homepage</a></li> 
+                <li> <a href="pages\about.html">About</a></li>
+                <li> <a href="pages\contact.html">Contact</a></li>
             </ul>
+        
         </nav>
     </header>
-    <main>
-        <section id="homepage">
-            
+    <main id="Homepage">
+        <!--This is the cover for the mainpage-->
+        <section class="cover">
+            <h1>Refresh your style</h1>
+            <p>"Because every hairstyle tells your story"</p>
+        </section>
+
+        <!--Gallery of different hairstyles-->
+        <section class="gallery">
+            <img src="pages\media\hairstyle_1.jpg"alt="Woman with box braids styled in a net updo">
+            <img src="pages\media\hairstyle_2.jpg"alt="Man with short cut afro">
+            <img src="pages\media\hairstyle_3.jpg"alt="Woman with locs tied in a high bun">
+            <img src="pages\media\hairstyle_4.jpg"alt="Woman with a bridal bun style">
+        </section>
+        <!--Testimonial section-->
+       
+        <!--List of services-->
+        <section class="services">
+            <h3>Our services</h3>
+            <ul>
+                <li><a> Braiding & protective styles</a></li>
+                <li><a> Coloring & higlights</a></li>
+                <li><a> Cuts & styling</a></li>
+                <li><a> Treatments & hair care</a></li>
+
+            </ul>
+        </section>
+
+        <!--Boking site-->
+        <section class="booking">
+            <h4>Book your appointment today and let us refresh your look.</h4>
+            <button><a href="pages\contact.html">Book now</a></button>
+
+        </section>
+        <!--contact icons section-->
+        <section class="contact-icons">
+            <h3>Get in touch</h3>
+            <div class="icons">
+                <a href="mailto:refreshsalon@email.com" aria-label="Email">
+                <i class="fa-solid fa-envelope"></i> Email Us</a>
+
+                <a href="https://wa.me/123456789" target="_blank" aria-label="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+
+                <a href="https://instagram.com/" target="_blank" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i> Instagram </a>
+
+                <a href="tel:+123456789" aria-label="Phone call"> 
+                <i class="fa-solid fa-phone"></i> Call us</a>
+            </div>
         </section>
 
     </main>
-    <footer>
 
+    <!--Footer-->
+    <footer>
+        <p class="pfooter"> © 2025 REFRESH website</p>
     </footer>
 </body>
 </html>
