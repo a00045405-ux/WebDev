@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
   <title>
-    <h1>Contact</h1>
+    Contact
   </title>
   <style>
   h1 {color:white;}
@@ -18,11 +18,39 @@
   display: block;
   margin: auto;
   width: 50%;}
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.home-button-link {
+    display: inline-block;
+    padding: 10px 25px; 
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: #e91e63;
+    color: #ffffff;
+    font-family: serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: 2px solid #e91e63;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
 
+.home-button-link:hover {
+    background-color: #c2185b;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
 </style>
   </head>
   <body>
     <img src="c:\Users\NewPC\Downloads\REFRESHlogo.png" alt="refresh logo" style="width:400px;height:400px;">
     <p>Thank you for your submission!<br>We will get back to you shortly.</p>
+    <form method="POST" action="index.html">
+    <div class="button-container">
+       <a href="index.html" class="home-button-link">Return Home</a>
+  </div>
     </body>
   </html>
