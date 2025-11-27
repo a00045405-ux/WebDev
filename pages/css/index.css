@@ -67,7 +67,7 @@ Flex = organize the content inside that glued bar.*/
     align-items: center;
     padding: 0 50px;
     height: 75px;
-    background: linear-gradient(to left, #ff69b4aa, #87cefaaa, #ffeb3baa);
+    background: linear-gradient(to left, #ff69b4cc, #87cefacf, #ffeb3bcc);
     position: sticky; /* With sticky, the header stays in the normal flow (so it pushes content down) 
     until you scroll, then it sticks to the top. No padding-top needed. */
     top: 0;
@@ -94,7 +94,7 @@ Flex = organize the content inside that glued bar.*/
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 0px 20px;
+    padding: 10px 20px;
     color:black;
     text-decoration: none;
  }
@@ -105,7 +105,7 @@ Flex = organize the content inside that glued bar.*/
 
  
 .cover{
-    background: linear-gradient(to left, #ff69b4aa, #87cefaaa, #ffeb3baa);
+    background: linear-gradient(to left, #ff69b4cc, #87cefacf, #ffeb3bcc);
     color: white;
     text-align: center;
     padding: 150px 20px 100px;
@@ -131,6 +131,8 @@ Flex = organize the content inside that glued bar.*/
 .gallery img{
    width: 300px;
    height:400px;
+   min-height: 44px;
+   min-width: 44px;
    object-fit: cover;
    border-radius: 0.625rem;
    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
@@ -147,7 +149,7 @@ Flex = organize the content inside that glued bar.*/
    text-align: left;
    padding: 60px 20px;
 }
-.services h3{
+.services h2{
    padding: 30px 10px;
    margin-bottom: 20px;
    text-transform: uppercase;
@@ -180,11 +182,11 @@ Flex = organize the content inside that glued bar.*/
 .booking {
    text-align: center;
    padding: 50px 20px;
-   background: #87cefa;
+   background: #4db3f3;
    color: white;
 
 }
-.booking h4{
+.booking h3{
    margin-bottom: 10px;
    font-size: 1.5rem;
 }
@@ -192,6 +194,8 @@ Flex = organize the content inside that glued bar.*/
    background: #ff69b4;
    border: none;
    padding: 20px 35px;
+   min-height: 44px;
+   min-width: 44px;
    font-size: 18px;
    color: white;
    border-radius: 7px;
@@ -199,6 +203,8 @@ Flex = organize the content inside that glued bar.*/
 }
 .booking button a{
    text-decoration: none;
+    min-height: 44px;
+   min-width: 44px;
    color:white;
    padding: 0.565rem;
 }
@@ -231,12 +237,15 @@ footer{
    justify-content: center;
    flex-wrap: wrap;
    gap: 25px;
+   color: #222;
 }
 .icons a 
 {
    font-size: 20px;
    background: white;
-   padding: 12px 18px;
+   padding: 18px 22px;
+   min-height: 44px;
+   min-width: 44px;
    border-radius: 12px;
    text-decoration: none;
    color: black;
