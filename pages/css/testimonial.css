@@ -43,6 +43,7 @@ nav ul {
 
 nav li a {
     font-size: 18px;
+    padding: 10px 20px;
     font-weight: bold;
     text-transform: uppercase;
     color: #222;
